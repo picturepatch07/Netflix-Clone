@@ -5,6 +5,6 @@ Currently, I have implemented the basic UI with media details fetch functionalit
 
 Please leave a ⭐ as motivation if you liked the implementation 😄
 
-##Built with
+## Built with
 * [React JS](https://reactjs.org/)
 * [TMDB API](https://www.themoviedb.org/)
