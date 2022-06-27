@@ -11,7 +11,7 @@ function Nav() {
         />
 
         <img 
-            className="nav_avatar"
+            className="nav__avatar"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkohTJNgr4OxbfK1WgyKVM7ipPiFH4xdKj_w&usqp=CAU"
             alt="Netflix Logo"
         />
