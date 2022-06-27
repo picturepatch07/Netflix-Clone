@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from "./axios";
 import "./Row.css";
+import YouTube from 'react-youtube';
 
 const baseURL = "https://image.tmdb.org/t/p/original/";
 
@@ -34,13 +35,11 @@ function Row({title, fetchUrl, isLargeRow}) {
             alt={movie.name} 
             /> 
           ))}
-
         </div>
-
-
         {/* container -> posters */}
+        <YouTube videoId={trailerUrl} opts={opts} />
     </div>
-  )
+  );
 }
 
 export default Row
